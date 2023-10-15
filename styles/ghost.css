@@ -1,76 +1,163 @@
-a{
-    color: black;
-    text-decoration: none;
-}
-
-.banner{
-    text-align: center;
-    color: whitesmoke
-}
-h1{
-    display: inline;
-    background-color: #000;
-    padding: 10px;
-}
-
-.author {
-    font-size: 2rem;
-    font-family: "Raleway", sans-serif;
-    position: flex;
-    width: 98.7%;
-    background-color: lightgrey;
-    padding: 10px;
-    text-align: center;
-  }
-
-
-.author-name a:hover {
-    background-color: #306203;
-}
-  
-.publish-date {
-    color: rgba(255, 255, 255, 0.5);
-}
-
-.social-icons {
+@media (min-width: 1000px){
+    a{
+        color: black;
+        text-decoration: none;
+    }
     
-    background-color: lightgrey;
-    display: grid;
-    font-size: 3rem;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
-    align-items: center;
-    text-align: center;
-    justify-content: center; 
+    .banner{
+        text-align: center;
+        color: whitesmoke
+    }
+    h1{
+        display: inline-block;
+        background-color: #000;
+        padding: 10px;
+    }
+    
+    .author {
+        font-size: 2rem;
+        font-family: "Raleway", sans-serif;
+        position: flex;
+        padding: 10px;
+        text-align: center;
+      }
+    
+    
+    .author-name a:hover {
+        background-color: #306203;
+    }
+      
+    .publish-date {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .gr{
+        background-color: lightgray;
+    }
+    .social-icons {
+        display: grid;
+        font-size: 3rem;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+        align-items: center;
+        text-align: center;
+        justify-content: center; 
+    }
+    .photo_main img{
+        width: 100%;
+    }
+    .photo_main{
+        width: 50%;
+        margin: auto;
+    }
+    .photo_graveyard img{
+        width: 100%;
+    }
+    .photo_graveyard{
+        width: 50%;
+        margin: auto;
+    }
+    .photo_hallway img{
+        width: 100%;
+    }
+    .photo_hallway{
+        width: 50%;
+        margin: auto;
+    }
+    .photo_suicide img{
+        width: 100%;
+    }
+    .photo_suicide{
+        width: 50%;
+        margin: auto;
+    }
+    p{
+        margin: auto;
+        width: 60%;
+        padding-top: 15px;
+    }
 }
-.photo_main{
-    width: 50%;
-    margin: auto;
-}
-.photo_graveyard img{
-    width: 100%;
-}
-.photo_graveyard{
-    width: 50%;
-    margin: auto;
-}
-.photo_hallway img{
-    width: 100%;
-}
-.photo_hallway{
-    width: 50%;
-    margin: auto;
-}
-.photo_suicude img{
-    width: 100%;
-}
-.photo_suicide{
-    width: 40%;
-    margin: auto;
-}
-p{
-    margin: auto;
-    width: 60%;
-    padding-top: 15px;
+@media (max-width: 999px){
+    
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    .banner{
+        margin-left: 50%;
+        text-align: center;
+        color: whitesmoke
+    }
+    h1{
+        display: inline;
+        background-color: #000;
+        padding: 5px;
+
+    }
+    
+    .author {
+        font-size: 2rem;
+        font-family: "Raleway", sans-serif;
+        position: flex;
+        padding: 10px;
+        text-align: center;
+      }
+    
+    .gr{
+        margin: auto;
+        background-color: lightgray;
+    }
+    .author-name a:hover {
+        background-color: #306203;
+    }
+      
+    .publish-date {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    
+    .social-icons {
+        width: 100%;
+        display: grid;
+        font-size: 3rem;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+        align-items: center;
+        text-align: center;
+        justify-content: center; 
+    }
+    .photo_main img{
+        width: 100%;
+    }
+    .photo_main{
+        width: 50%;
+        margin: auto;
+    }
+    .photo_graveyard img{
+        width: 100%;
+    }
+    .photo_graveyard{
+        width: 50%;
+        margin: auto;
+    }
+    .photo_hallway img{
+        width: 100%;
+    }
+    .photo_hallway{
+        width: 50%;
+        margin: auto;
+    }
+    .photo_suicide img{
+        width: 100%
+    }
+    .photo_suicide{
+        width: 50%;
+        margin: auto;
+    }
+    p{
+        margin: auto;
+        width: 60%;
+        padding-top: 15px;
+    }
 }
