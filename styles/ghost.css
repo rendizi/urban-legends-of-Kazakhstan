@@ -48,6 +48,27 @@ h1{
     width: 50%;
     margin: auto;
 }
+.photo_graveyard img{
+    width: 100%;
+}
+.photo_graveyard{
+    width: 50%;
+    margin: auto;
+}
+.photo_hallway img{
+    width: 100%;
+}
+.photo_hallway{
+    width: 50%;
+    margin: auto;
+}
+.photo_suicude img{
+    width: 100%;
+}
+.photo_suicide{
+    width: 40%;
+    margin: auto;
+}
 p{
     margin: auto;
     width: 60%;
