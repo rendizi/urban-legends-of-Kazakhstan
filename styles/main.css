@@ -1,0 +1,43 @@
+/* Default styles for larger screens */
+div {
+    width: 70%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh; /* Optional for full-height centering */
+}
+
+h1, h2 {
+    text-align: center; /* Center the text horizontally */
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner {
+    width: 50%;
+    margin: auto;
+}
+
+.centered-list {
+    text-align: center; /* Center the content horizontally */
+}
+
+.centered-list ul {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+    h1, h2, p {
+        font-size: 5em; /* Adjust the font size for mobile */
+    }
+
+    /* You can add more mobile-specific styles here */
+}
