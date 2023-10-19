@@ -20,31 +20,45 @@
         background-color: #000;
         padding: 10px;
     }
-    .photo_main img{
+    .photo_1 img{
         width: 100%;
     }
-    .photo_main{
+    .photo_1{
+        width: 60%;
+        margin: auto;
+    }
+    .photo_2 img{
+        width: 100%;
+    }
+    .photo_2{
+        width: 60%;
+        margin: auto;
+    }
+    .photo_3 img{
+        width: 100%;
+    }
+    .photo_3{
+        width: 100%;
+        margin: auto;
+    }
+    .photo_4 img{
+        width: 100%;
+    }
+    .photo_4{
         width: 50%;
         margin: auto;
     }
-    .photo_graveyard img{
+    .photo_5 img{
         width: 100%;
     }
-    .photo_graveyard{
+    .photo_5{
         width: 50%;
         margin: auto;
     }
-    .photo_hallway img{
+    .photo_6 img{
         width: 100%;
     }
-    .photo_hallway{
-        width: 50%;
-        margin: auto;
-    }
-    .photo_suicide img{
-        width: 100%;
-    }
-    .photo_suicide{
+    .photo_6{
         width: 50%;
         margin: auto;
     }
